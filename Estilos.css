@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0d3d3;
+}
+h1 {
+    color: #b460b4;
+}
+header {
+    background-color: #f8f8f8;
+    background: url('paramo.jpg') no-repeat center center;
+    color: rgb(93, 81, 117);
+    text-align: center;
+    padding: 20px 0;
+    opacity: 1;
+}
+
+h2 {
+    color: #481e50;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    color: rgb(5, 5, 5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    opacity: 0.9;
+
+}                                                                               
+h3 {
+    color: #b460b4;
+}
+.origenes-section {
+    position: relative;
+    background: url('chiqui.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(252, 241, 241);
+    text-shadow: 2px 2px 4px rgba(45, 53, 129, 0.9);
+    padding: 40px;
+    opacity: 1;
+} 
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
