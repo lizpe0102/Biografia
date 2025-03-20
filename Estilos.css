@@ -4,9 +4,11 @@ body {
     padding: 0;
     background-color: #e0d3d3;
 }
+
 h1 {
     color: #b460b4;
 }
+
 header {
     background-color: #f8f8f8;
     background: url('paramo.jpg') no-repeat center center;
@@ -27,11 +29,12 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 10px #000000;
     opacity: 0.9;
-
 }                                                                               
+
 h3 {
     color: #b460b4;
 }
+
 .origenes-section {
     position: relative;
     background: url('chiqui.jpg') no-repeat center center;
@@ -41,6 +44,27 @@ h3 {
     padding: 40px;
     opacity: 1;
 } 
+
+.dual-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dual-section .text {
+    width: 50%;
+    padding: 20px;
+}
+
+.dual-section .image {
+    width: 50%;
+    text-align: center;
+}
+
+.dual-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}
 
 .button {
     display: inline-block;
